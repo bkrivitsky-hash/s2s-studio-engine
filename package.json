@@ -1,0 +1,11 @@
+{
+  "name": "s2s-studio-engine",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Stem to Stream Studio engine: a browser multitrack audio engine, DSP tools and a headless controller for building your own studio UI.",
+  "scripts": {
+    "build": "node scripts/bundle.mjs",
+    "test": "node --test tests/*.test.js",
+    "test:browser": "node tests/controller.browser.mjs"
+  }
+}
